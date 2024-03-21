@@ -17,4 +17,8 @@ namespace Empresa.BSS
             return dal.ListarEmpleadoDal();
         }
     }
+    public void InsertarEmpleadoBss(Empleado empleado)
+    {
+        DAL.InsertarEmpleadoDal(empleado);
+    }
 }

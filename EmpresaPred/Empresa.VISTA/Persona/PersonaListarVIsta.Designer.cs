@@ -53,7 +53,7 @@
             dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(547, 381);
+            dataGridView1.Size = new Size(548, 381);
             dataGridView1.TabIndex = 5;
             // 
             // PersonaListarVIsta

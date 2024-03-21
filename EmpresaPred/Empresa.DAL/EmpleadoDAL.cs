@@ -16,5 +16,13 @@ namespace Empresa.DAL
             DataTable lista = conexion.EjecutarDataTabla(consulta, "table");
             return lista;
         }
+
+        public void InsertarEmpleadoDal(Empleado empleado)
+        {
+            string consulta = "insert into empleado values('" + empleado.ID + "'," +
+                                         
+        }
     }
+
+
 }
